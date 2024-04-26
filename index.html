@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="estilos.css" >
 </head>
 <body> 
-    <h1>Bem-Vindo à minha Página</h1>
+    <h1 style="color:brown;">Bem-Vindo à minha Página</h1>
     <p>Essa é uma pagina simples que estou criando com HTML</p>
     <p>Estou aprendendo a criar páginas da web!</p>
     <img src="download.jpg" alt="descrição da imagem">
@@ -138,7 +138,7 @@
         <li>CARROS</li>
         <ol>
             <li>esportivos</li>
-            <ul type="disc">
+            <ol type="a">
                 <li>velocidade</li>
             </ul>
             <li>rebaixados</li>
@@ -154,8 +154,32 @@
         <dd>Linguagem de marcação utilizada para criar o conteudo de site.</dd>
 
         <dt>CSS</dt>
-        <dd>Linguagem de marcação para a especialidades</dd>
+        <dd>Linguagem de marcação para a especificação de estilos em sites.</dd>
+        
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para criar interatividades em sites.</dd>
     </dl>
+    <p>_________________________________________________________________________________________</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="foto-m.png" type="image/png">
+        <img src="foto-g.png" alt="A imagem flexivel funcional"> 
+    </picture>
+    <br>
+
+    <audio preload="metadala" controls autoplay loop> 
+        <source src="mc ig.mp3" type="audio/mpeg">
+    </audio>
+    <br>
+    <video width="600" poster="thumg.jpg" controls autoplay>
+        <source src="meu-video.webm" type="video/webm">
+        <source src="miau.mp4" type="video/mp4">
+        <source src="meu-video.ogv" type="video/ogg">
+        <p>Infelizmente seu navegador nao conseguiu carregar o video</p>
+    </video>
+    <br>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Eq53aVe-F_k?si=bUeM-css32fWTgkZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 </body>
 </Html>
